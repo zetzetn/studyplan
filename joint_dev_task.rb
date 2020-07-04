@@ -30,7 +30,8 @@ def q3
 
   # 以下に回答を記載
   p numbers.count(3)
-
+  # count = numbers.count(3)
+  # puts count
 
 end
 
@@ -40,7 +41,9 @@ def q4
   # 以下に回答を記載
 
   p sports.compact!
-
+  # sports.compact!
+  # # 以下は変更しないで下さい
+  # p sports
 end
 
 def q5
