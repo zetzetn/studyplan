@@ -9,6 +9,8 @@ def q1
 
   p names
 
+  # answer
+  # ["田中", "佐藤", "佐々木", "高橋", "斎藤"]
 end
 
 def q2
@@ -22,6 +24,14 @@ def q2
   # 以下に回答を記載
   array = array1 + array2
   puts array
+
+ # answer
+#  dog
+#  cat
+#  fish
+#  bird
+#  bat
+#  tiger
 
 end
 
@@ -44,6 +54,8 @@ def q4
   # sports.compact!
   # # 以下は変更しないで下さい
   # p sports
+  # answer
+  # ["サッカー", "フットサル", "野球", "バスケ", "バレー"]
 end
 
 def q5
@@ -54,6 +66,9 @@ def q5
  p array1.empty?
  p array2.empty?
 
+  # answer
+ #  true
+ # false
 end
 
 def q6
@@ -63,6 +78,9 @@ def q6
   numbers2 = numbers1.map{|n|n*10}
   p numbers2
 
+  # answer
+  # [10, 20, 30, 40, 50]
+  
 end
 
 def q7
@@ -71,6 +89,9 @@ def q7
   # 以下に回答を記載
   # 間違いを修正済み
   p array.map!(&:to_i)
+
+  # answer
+  # [1, 2, 3, 4, 5]
 end
 
 def q8
@@ -79,6 +100,9 @@ def q8
   # 以下に回答を記載
   p programming_languages.map!(&:capitalize)
   p upper_case_programming_languages = programming_languages.map(&:upcase)
+  # answer
+  # ["Ruby", "Php", "Python", "Javascript"]
+  # ["RUBY", "PHP", "PYTHON", "JAVASCRIPT"]
 end
 
 def q9
@@ -89,6 +113,15 @@ def q9
   names.each.with_index(1) do |name, i|
     puts "会員No.#{i}\s#{name}さん"
   end
+  # answer
+# 田中
+# 佐藤
+# 佐々木
+# 高橋
+# 会員No.1 田中さん
+# 会員No.2 佐藤さん
+# 会員No.3 佐々木さん
+# 会員No.4 高橋さん
 end
 
 def q10
@@ -102,8 +135,14 @@ def q10
       puts "まぁまぁ好きです"
     end
   end
-
-
+  # answer
+  # まぁまぁ好きです
+  # まぁまぁ好きです
+  # 好物です
+  # まぁまぁ好きです
+  # 好物です
+  # 好物です
+  # 好物です
 end
 
 def q11
