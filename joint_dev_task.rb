@@ -153,7 +153,15 @@ def q11
   sports.flatten.uniq.each.with_index(1) do |sport,n|
     puts "No#{n} #{sport}"
   end
-
+    # answer
+  # No1 サッカー
+  # No2 バスケ
+  # No3 野球
+  # No4 フットサル
+  # No5 水泳
+  # No6 ハンドボール
+  # No7 卓球
+  # No8 ボルダリング
 end
 
 def q12
