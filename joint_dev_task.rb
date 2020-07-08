@@ -169,6 +169,8 @@ def q12
 
   # 以下に回答を記載
   p data[:user][:name]
+    # answer
+  # "satou"
 end
 
 def q13
@@ -177,6 +179,9 @@ def q13
 
   # 以下に回答を記載
   p user_data = user_data.merge(update_data)
+ # answer
+  # {:name=>"神里", :age=>32, :address=>"沖縄"}
+
 end
 
 def q14
@@ -184,6 +189,10 @@ def q14
 
   # 以下に回答を記載
   p data.keys
+
+ # answer
+#  [:name, :age, :address, :hobby, :email]
+
 end
 
 def q15
@@ -194,6 +203,9 @@ def q15
   p (data1.has_key?(:age) ? "OK" : "NG")
   p (data2.has_key?(:age) ? "OK" : "NG")
 
+   # answer
+  #   "OK"
+  # "NG"
 end
 
 def q16
@@ -208,6 +220,11 @@ def q16
   users.each do |user|
     puts "私の名前は#{user[:name]}です。年齢は#{user[:age]}歳です。"
   end
+   # answer
+#   私の名前はsatouです。年齢は22歳です。
+# 私の名前はyamadaです。年齢は12歳です。
+# 私の名前はtakahashiです。年齢は32歳です。
+# 私の名前はnakamuraです。年齢は41歳です。
 end
 
 class UserQ17
@@ -236,6 +253,14 @@ def q17
   user1.info
   puts "-------------"
   user2.info
+   # answer
+#   名前：神里
+# 年齢：32
+# 性別：男
+# -------------
+# 名前：あじー
+# 年齢：32
+# 性別：男
 end
 
 class UserQ18
@@ -252,6 +277,7 @@ class UserQ18
        puts "こんにちは、#{@name}と申します。宜しくお願いいたします。"
      end
     end
+
 end
 
 def q18
@@ -261,6 +287,10 @@ def q18
 
   puts user1.introduce
   puts user2.introduce
+
+    #  # answer
+    #  こんにちは，あじーと申します。宜しくお願いいたします。
+    #  はいさいまいど〜，ゆたぼんです！！！
 end
 
 class Item
@@ -271,7 +301,6 @@ class Item
   end
   attr_reader :name
 end
-
 
 
 def q19
